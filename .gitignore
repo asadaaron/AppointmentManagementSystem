@@ -10,7 +10,7 @@ target/
 *.iml
 *.ipr
 
-# Ignore log files
+# Ignore log files, this will include all the logs
 logs/
 *.log
 
