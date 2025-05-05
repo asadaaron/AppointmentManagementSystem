@@ -28,19 +28,6 @@ API Testing: Postman
 
 Others: JWT, Lombok, Swagger/OpenAPI
 
-📁 Project Structure
-src/
-├── main/
-│   ├── java/
-│   │   └── com.appointment/
-│   │       ├── controller/
-│   │       ├── service/
-│   │       ├── repository/
-│   │       └── model/
-│   └── resources/
-│       ├── application.properties
-│       └── static/
-└── test/
 
 🚀 Getting Started
 Prerequisites
