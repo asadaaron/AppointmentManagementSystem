@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ams?autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false
-    username: ${MYSQL_USER}
-    password: ${MYSQL_PASSWORD}
+    username: admin
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       initialization-fail-timeout: 60000

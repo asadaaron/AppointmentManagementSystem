@@ -1,3 +1,4 @@
+/*
 package com.example.appointmentmanagementsystem.config;
 
 import com.zaxxer.hikari.HikariDataSource;
@@ -23,3 +24,4 @@ public class DataSourceConfig {
     }
 }
 
+*/
