@@ -47,7 +47,7 @@ jobs:
       - name: Wait for MySQL to be ready
         run: |
           echo "Waiting for MySQL to be ready..."
-          until mysqladmin ping -h 127.0.0.1 -u testuser --password=testpass --silent; do
+          until mysqladmin ping -h 127.0.0.1 -u admin --password=root --silent; do
             sleep 2
           done
 
@@ -60,5 +60,5 @@ jobs:
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
-          username: ${{ secrets.DOCKER_USERNAM }}
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD}}
